@@ -119,9 +119,9 @@ then
 	echo "Beginning Install..."
 	if [ -d "$INSTALL_DIR" ];
 	then
-		echo "ScummVM install directory found :)"
+		echo "PrBoom+ install directory found :)"
 	else
-		echo "ScummVM install directory not found :("
+		echo "PrBoom+ install directory not found :("
 		echo "Creating --> $INSTALL_DIR"
 		mkdir $INSTALL_DIR
 	fi
